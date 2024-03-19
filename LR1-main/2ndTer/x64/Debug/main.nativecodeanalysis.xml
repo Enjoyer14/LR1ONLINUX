@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Чтение недопустимых данных из "newworkers".</DESCRIPTION>
+    <FUNCTION>ExpandArray</FUNCTION>
+    <DECORATED>?ExpandArray@@YAXPEAVFactoryWorker@@AEAH@Z</DECORATED>
+    <FUNCLINE>56</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>58</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>59</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"newworkers" является массивом размером 216 байт</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;count")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>60</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;count")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"i" является выходными данными из "FactoryWorker::=" (объявлено в c:\users\stass\onedrive\рабочий стол\2ndterm\models\classworker\worker.h:25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>62</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция чтения из "newworkers[1]" (доступный для чтения диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Чтение недопустимых данных из "newworkers".</DESCRIPTION>
+    <FUNCTION>ExpandArray</FUNCTION>
+    <DECORATED>?ExpandArray@@YAXPEAVProvider@@AEAH@Z</DECORATED>
+    <FUNCLINE>68</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>70</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>71</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"newworkers" является массивом размером 216 байт</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;count")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"i" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>72</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;count")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"i" является выходными данными из "Provider::=" (объявлено в c:\users\stass\onedrive\рабочий стол\2ndterm\models\classprovider\provider.h:23)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>74</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция чтения из "newworkers[1]" (доступный для чтения диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>167</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Чтение недопустимых данных из "newhumans".</DESCRIPTION>
+    <FUNCTION>FactoryDeleteInfo</FUNCTION>
+    <DECORATED>?FactoryDeleteInfo@@YAHPEAVFactoryWorker@@AEAH1@Z</DECORATED>
+    <FUNCLINE>151</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>153</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>156</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>158</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"newhumans" является массивом размером 216 байт</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>162</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в этот цикл (предполагается "i&lt;currentCount-1")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в эту ветвь (предполагается "i!=variant")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"j" может быть равно 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Продолжить этот цикл (предполагается "i&lt;currentCount-1")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Войти в эту ветвь (предполагается "i!=variant")</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"j" является выходными данными из "FactoryWorker::=" (объявлено в c:\users\stass\onedrive\рабочий стол\2ndterm\models\classworker\worker.h:25)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\stass\OneDrive\Рабочий стол\2ndTerm\</FILEPATH>
+        <FILENAME>main.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Недопустимая операция чтения из "newhumans[1]" (доступный для чтения диапазон: от 0 до 0)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,812 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"newworkers\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                },
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 9,
+                  "endLine": 62,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ExpandArray",
+                  "decoratedName": "?ExpandArray@@YAXPEAVFactoryWorker@@AEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"newworkers\" является массивом размером 216 байт"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<count\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<count\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" является выходными данными из \"FactoryWorker::=\" (объявлено в c:\\users\\stass\\onedrive\\рабочий стол\\2ndterm\\models\\classworker\\worker.h:25)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"newworkers[1]\" (доступный для чтения диапазон: от 0 до 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"newworkers\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 9,
+                  "endLine": 74,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ExpandArray",
+                  "decoratedName": "?ExpandArray@@YAXPEAVProvider@@AEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 71,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "\"newworkers\" является массивом размером 216 байт"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<count\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 31
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<count\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" является выходными данными из \"Provider::=\" (объявлено в c:\\users\\stass\\onedrive\\рабочий стол\\2ndterm\\models\\classprovider\\provider.h:23)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"newworkers[1]\" (доступный для чтения диапазон: от 0 до 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"newhumans\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                },
+                "region": {
+                  "startLine": 167,
+                  "startColumn": 13,
+                  "endLine": 167,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "FactoryDeleteInfo",
+                  "decoratedName": "?FactoryDeleteInfo@@YAHPEAVFactoryWorker@@AEAH1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 156,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "\"newhumans\" является массивом размером 216 байт"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 162,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 163,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<currentCount-1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"i!=variant\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 169,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "\"j\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 163,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<currentCount-1\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в эту ветвь (предполагается \"i!=variant\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "\"j\" является выходными данными из \"FactoryWorker::=\" (объявлено в c:\\users\\stass\\onedrive\\рабочий стол\\2ndterm\\models\\classworker\\worker.h:25)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"newhumans[1]\" (доступный для чтения диапазон: от 0 до 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7ee8c1118919a8bd0ba5bd9c32930b001901e6fd24fd483f3e720171b46b6bee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classmenu/cmenu.h"
+          },
+          "hashes": {
+            "sha-256": "ebaef63cf5f8562f7595eb90baddde3ee192ce5986eb2d0138daaf3a634b53e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classmenuitem/cmenuitem.h"
+          },
+          "hashes": {
+            "sha-256": "345492914030461365425e6556c7806b129b09a7c1cb521097a9a6e17705b3fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classuser/user.h"
+          },
+          "hashes": {
+            "sha-256": "b8535eb942432d7182d83c1d7b641e0ed334e194ee22930bd0d7ae17e75e6c8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classworker/worker.h"
+          },
+          "hashes": {
+            "sha-256": "8e1033aa68d4ab40fc698c372aa872c8bd5cca94fc3f790292318018b535126a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classprovider/provider.h"
+          },
+          "hashes": {
+            "sha-256": "da499056134a370efa3b08a7bcb7ee46497779a2ab008935febdd601db69261a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classproduct/product.h"
+          },
+          "hashes": {
+            "sha-256": "a760f40291f526a1c3f2d758fda897c366fc8b12b80986094a94336104ed2559"
+          }
+        }
+      ]
+    }
+  ]
+}
