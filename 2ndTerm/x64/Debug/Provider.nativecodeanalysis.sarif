@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classprovider/provider.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6bd70243d8547959a343bd7a1a0d3694421335f696d4611ea339a49a5ce7df35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classprovider/provider.h"
+          },
+          "hashes": {
+            "sha-256": "068bc0b6e99d7cdf33eacf7bf07f8ca3e81ab57f0e632a05fc9d234db39d9c7a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classuser/user.h"
+          },
+          "hashes": {
+            "sha-256": "454a9045e027c9d50ec939537ba18ea38cca44d7a32ea1f852159e5b34104bb7"
+          }
+        }
+      ]
+    }
+  ]
+}

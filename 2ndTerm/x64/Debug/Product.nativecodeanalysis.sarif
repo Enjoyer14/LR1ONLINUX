@@ -1,0 +1,103 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Product::quantity\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/Models/ClassProduct/Product.cpp"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Product::{ctor}",
+                  "decoratedName": "??0Product@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Product::quantity"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Product::cost\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/Models/ClassProduct/Product.cpp"
+                },
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 10
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Product::{ctor}",
+                  "decoratedName": "??0Product@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Product::cost"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/stass/OneDrive/Рабочий стол/2ndTerm/Models/ClassProduct/Product.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "4db1d8b9c105648af2014ae1d49349602afc2d4ac2c931289b1a0a06734d38f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classproduct/product.h"
+          },
+          "hashes": {
+            "sha-256": "6c66cbc7f8ea2ce52f9a8c038fa178933a2c1e973e86d20dd6e9906cc7507755"
+          }
+        }
+      ]
+    }
+  ]
+}

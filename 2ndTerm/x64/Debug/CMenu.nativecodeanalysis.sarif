@@ -1,0 +1,75 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classmenu/cmenu.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "925da2a9497d2fb70c315100dcc5f8ad0c0654691fa7b1aa51a571e7ea84a620"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classmenu/cmenu.h"
+          },
+          "hashes": {
+            "sha-256": "f5188dd0bc5161dfdf29490b81e51e6eb405613c870a6631d51d3e222eb97cb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classmenuitem/cmenuitem.h"
+          },
+          "hashes": {
+            "sha-256": "2273df47d5720697db0880fe593e925157e81c650ceb0755b25736476e0a8daa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classuser/user.h"
+          },
+          "hashes": {
+            "sha-256": "454a9045e027c9d50ec939537ba18ea38cca44d7a32ea1f852159e5b34104bb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classproduct/product.h"
+          },
+          "hashes": {
+            "sha-256": "6c66cbc7f8ea2ce52f9a8c038fa178933a2c1e973e86d20dd6e9906cc7507755"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/stass/onedrive/рабочий стол/2ndterm/models/classworker/worker.h"
+          },
+          "hashes": {
+            "sha-256": "1f5df08dd375124f9b216ef832c7e842129a71f8ab3a168c05fffbe8c8675754"
+          }
+        }
+      ]
+    }
+  ]
+}
